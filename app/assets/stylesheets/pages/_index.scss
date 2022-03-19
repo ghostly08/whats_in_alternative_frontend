@@ -1,6 +1,10 @@
 // Import page-specific CSS files here.
 @import "home";
 
-.min{
- min-height: calc(100vh - 50px);
+body {
+  background-color: $mid-green;
 }
+
+// .min{
+//  min-height: calc(100vh - 50px);
+// }
