@@ -1,5 +1,8 @@
 .navbar {
+  position: fixed;
+  width: 100%;
   background-color: $dark-green;
+  z-index: 1;
 
   .logo {
     font-family: 'Ubuntu';
@@ -19,42 +22,3 @@
   color: white;
   border: none;
 }
-
-
-
-
-
-// .navbar-lewagon .navbar-collapse {
-//   flex-grow: 0;
-//   color: $orange;
-// }
-
-// .navbar-lewagon .navbar-brand img {
-//   width: 40px;
-// }
-
-// .stripe-menu{
-//   color: lightgrey;
-// }
-//  .menu-burger{
-//    fill: rgb(129, 128, 128);
-//  }
-
-//  .home-navbar{
-//   background-color: hsl(235, 24%, 9%);
-//  }
-
-//  .logo-container{
-//    justify-items: center;
-//  }
-// .navbar-light .navbar-nav .nav-link{
-//   color: lightgray;
-// }
-// a {
-//   color: white;
-//   text-decoration: none;
-
-// }
-// a:hover {
-//   color: $orange;
-// }
