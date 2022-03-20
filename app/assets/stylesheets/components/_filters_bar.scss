@@ -1,3 +1,12 @@
+.details{
+  position: fixed;
+  width: 100%;
+  top: 58px;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  z-index: 2;
+  padding: 0px !important;
+}
 
 .tag-item {
     display: inline-block;
@@ -73,9 +82,7 @@
   padding-left: 10px;
   margin-bottom: 0 !important;
 }
-.details{
-  padding: 0px !important;
-}
+
 
 #filter{
   margin-bottom: 0px;
