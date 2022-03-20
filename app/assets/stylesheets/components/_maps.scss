@@ -13,6 +13,12 @@
   }
 }
 
+// .mapboxgl-ctrl-geocoder {
+//   position: fixed;
+//   top: 50px;
+//   // right: -14px;
+// }
+
 .mapboxgl-popup {
   max-width: 200px;
   margin-bottom: 10px;
@@ -22,8 +28,9 @@
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
+
 .mapboxgl-ctrl-top-right{
-  transform: scale(70%)translateX(45px);
+  transform: scale(70%)translateX(65px);
 
 }
 
