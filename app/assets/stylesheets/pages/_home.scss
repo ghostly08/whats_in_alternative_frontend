@@ -48,3 +48,14 @@
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000000;
 }
+
+@media (min-width: 768px) {
+  .main-container {
+    height: 100vh;
+    background-image: url("background-desktopmac.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+}
