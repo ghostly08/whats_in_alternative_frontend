@@ -63,7 +63,7 @@
     font-size: 120px;
     line-height: 138px;
     -webkit-text-stroke-width: 3px;
-    text-shadow:  2px 4px 2px;
+    text-shadow:  1px 2px 4px #000000;
     margin-bottom: 20px;
   }
 
@@ -73,6 +73,7 @@
     line-height: 164%;
     margin-top: 50px;
     margin-right: 40%;
+    text-shadow:  2px 2px 4px;
   }
 
 }
