@@ -58,4 +58,21 @@
     background-position: center;
   }
 
+  .app-title {
+    left: 15%;
+    font-size: 120px;
+    line-height: 138px;
+    -webkit-text-stroke-width: 3px;
+    text-shadow:  2px 4px 2px;
+    margin-bottom: 20px;
+  }
+
+  .tagline {
+    left: 15%;
+    font-size: 60px;
+    line-height: 164%;
+    margin-top: 50px;
+    margin-right: 40%;
+  }
+
 }
