@@ -15,3 +15,15 @@
     font-weight: bold;
   }
 }
+
+@media (min-width: 768px) {
+  #go {
+    width: 20%;
+    padding: 3px 30px;
+    box-shadow: 1px 2px 4px $dark-green;
+  }
+
+  .btn {
+    border-color: none;
+  }
+}
