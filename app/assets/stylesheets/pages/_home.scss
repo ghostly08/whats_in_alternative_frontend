@@ -50,6 +50,26 @@
 }
 
 @media (min-width: 768px) {
+
+  .app-title {
+    top: 23%;
+    left: 10%;
+    font-size: 110px;
+    -webkit-text-stroke-width: 2px;
+    text-shadow:  1px 2px 4px #000000;
+  }
+
+  .tagline {
+    left: 10%;
+    right: 15%;
+    top: 32%;
+    font-size: 51px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
   .main-container {
     height: 100vh;
     background-image: url("background-desktopmac.png");
@@ -62,8 +82,6 @@
     left: 15%;
     font-size: 120px;
     line-height: 138px;
-    -webkit-text-stroke-width: 3px;
-    text-shadow:  1px 2px 4px #000000;
     margin-bottom: 20px;
   }
 
