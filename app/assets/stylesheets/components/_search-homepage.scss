@@ -7,26 +7,25 @@
 
 .search-container {
   position: absolute;
-  height: 26px;
-  left: 21px;
-  top: 244px;
-
   display: flex;
   align-items: center;
   width: 70%;
-  padding: 3px 30px;
-  margin: 5px;
-  // font-size: normal;
+  height: 26px;
+  left: 12%;
+  bottom: 34%;
+
+  // padding: 3px 30px;
+  // margin: 5px;
 
   .target-container {
-    width: 123%;
+    width: 95%;
   }
 
 }
 
 .mapboxgl-ctrl-geocoder {
   position: relative;
-  right: 40px;
+  right: 20%;
   min-width: 200px;
 }
 
@@ -43,7 +42,7 @@
   top: 8px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 
   .search-container {
     position: absolute;
