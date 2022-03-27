@@ -24,17 +24,22 @@
 }
 
 .mapboxgl-ctrl-geocoder {
+  border-radius: 10px;
+}
+
+.mapboxgl-ctrl-geocoder {
   position: relative;
   left: 0;
   right: 20%;
   min-width: 200px;
+  box-shadow: 2px 4px 6px $shadow;
 }
 
 .mapboxgl-ctrl-geocoder--input {
   height: 35px;
   font: -webkit-control;
   background-color: rgba(211, 211, 211, 0.397);
-  border-radius: 5px;
+  border-radius: 10px;
 
 }
 

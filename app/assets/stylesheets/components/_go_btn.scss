@@ -7,24 +7,26 @@
   width: 90%;
   padding: 3px 20px;
   margin: 3%;
-  border-radius: 5px;
+  border-radius: 10px;
   border-color: $dark-green;
+  box-shadow: 2px 4px 6px $shadow;
 
-  #go:hover {
-    padding: 12px;
-    font-weight: bold;
+  :hover {
+    opacity: 0.7;
+  }
+
+  :active {
+    box-shadow: 2px 1px 6px $shadow;
   }
 }
 
+/* ::::: Media Queries ::::: */
 
 @media (min-width: 992px) {
   #go {
     width: 20%;
     padding: 3px 30px;
-    box-shadow: 1px 2px 4px $dark-green;
+
   }
 
-  // .btn {
-  //   border-color: none;
-  // }
 }
