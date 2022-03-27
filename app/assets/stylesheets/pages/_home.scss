@@ -49,6 +49,8 @@
   -webkit-text-stroke-color: #000000;
 }
 
+/* ::::: Media Queries ::::: */
+
 @media (min-width: 768px) {
 
   .app-title {
@@ -60,10 +62,11 @@
   }
 
   .tagline {
-    left: 10%;
-    right: 15%;
+    left: 12%;
+    right: 13%;
     top: 32%;
-    font-size: 51px;
+    font-size: 55px;
+    margin-top: 4%;
   }
 
 }

@@ -2,11 +2,10 @@
   <h1 class="app-title">Whats In?</h1>
   <h2 class="tagline">Let's make eating fun again!</h2>
 </div>
-  <div class="search-container">
-    <form action="/restaurants" method="get" data-controller="geocoder"  data-geocoder-api-key-value="<%= ENV["MAPBOX_API_KEY"] %>" class="search-container">
-      <div data-geocoder-target="container" class="target-container"></div>
-      <input type="text" name="address" placeholder="Type your address!"
-              data-geocoder-target="address" class="d-none">
-      <input type="submit" value="Go!" class="btn" id="go">
-    </form>
-  </div>
+
+<form action="/restaurants" method="get" data-controller="geocoder"  data-geocoder-api-key-value="<%= ENV["MAPBOX_API_KEY"] %>" class="search-container">
+  <div data-geocoder-target="container" class="target-container"></div>
+  <input type="text" name="address" placeholder="Type your address!"
+          data-geocoder-target="address" class="d-none">
+  <input type="submit" value="Go!" class="btn" id="go">
+</form>
