@@ -52,11 +52,9 @@
 
 @media (min-width: 768px) {
 
-  // .search-container {
-  //   height: 6px;
-  //   width: 59%;
-  //   margin-left: 12px;
-  // }
+  .search-container {
+    width: 59%;
+  }
 
   .mapboxgl-ctrl-geocoder {
     min-width: 328px;
