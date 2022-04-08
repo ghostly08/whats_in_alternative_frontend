@@ -23,3 +23,29 @@ body {
     width: 45%;
   }
 }
+
+@media (min-width: 992px) {
+
+  .index-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 98%;
+    margin-top: 300px;
+  }
+
+  .map-container {
+    width: 40%;
+    height: 500px;
+
+  }
+
+  .cards-container {
+    width: 60%;
+  }
+
+  .mapboxgl-canvas {
+    height: 80vh;
+  }
+}
