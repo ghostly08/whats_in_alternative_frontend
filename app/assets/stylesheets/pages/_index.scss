@@ -32,20 +32,21 @@ body {
     justify-content: space-between;
     flex-direction: row-reverse;
     width: 98%;
-    margin-top: 300px;
+    margin: 100px auto 0;
   }
 
   .map-container {
     width: 40%;
-    height: 500px;
+    height: 100%;
 
   }
 
   .cards-container {
     width: 60%;
+    margin-top: 294px;
   }
 
-  .mapboxgl-canvas {
+  .mapboxgl-map {
     height: 80vh;
   }
 }

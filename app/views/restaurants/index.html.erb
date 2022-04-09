@@ -18,7 +18,7 @@
 
 <div class="index-container">
   <div class="map-container">
-    <div style="width: 100%; height: 270px;"
+    <div class="map-size"
       data-controller="mapbox"
       data-mapbox-markers-value="<%= @markers.to_json %>"
       data-mapbox-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
