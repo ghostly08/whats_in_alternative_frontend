@@ -8,6 +8,10 @@
   padding: 0px !important;
 }
 
+.new_user {
+  border-radius: 50px;          
+}
+
 .tag-item {
     display: inline-block;
   }
@@ -50,7 +54,7 @@
   letter-spacing: 0.2em;
   padding-top: .2rem;
   padding-left: .5em;
-  background-color: lightgrey;
+  // background-color: lightgrey;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -63,7 +67,8 @@
   margin-left: -.5em;
   margin-top: -.5em;
   margin-right: -.5em;
-  //margin-bottom: 10px;
+  background-color: white;
+  // border-radius: 30px 30px 70px 133px;
 }
 
 .color_ingredient {
@@ -73,7 +78,7 @@
   background-color: hsl(235, 24%, 9%);
 }
 
-.search_ingredients, .category-name {
+.search_ingredients {
   border-bottom: 1px $orange solid;
 }
 
